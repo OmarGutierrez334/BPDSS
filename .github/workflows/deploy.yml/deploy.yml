@@ -2,8 +2,7 @@ name: Deploy Next.js (estático) a EC2
 
 on:
   push:
-    branches: 
-    - master
+    branches: [main, master]
   workflow_dispatch:
 
 jobs:
